@@ -12,7 +12,6 @@ const namesSlice = createSlice({
     }   
   }
 });
-
 export const { addName } = namesSlice.actions;
 
 const store = configureStore({
